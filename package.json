@@ -1,0 +1,16 @@
+{
+  "name": "castdatachannel",
+  "version": "0.0.1",
+  "description": "Establish a webrtc connection to send data reliably to and from the chromecast",
+  "exports": {
+    ".": "./src/sender",
+    "./sender": "./src/sender",
+    "./receiver": "./src/receiver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmckeen/castdatachannel.git"
+  },
+  "author": "Luke Mckeen",
+  "license": "ISC"
+}
